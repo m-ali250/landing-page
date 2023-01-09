@@ -1,0 +1,23 @@
+* {
+    font-family: 'roboto', Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937; 
+    color: white;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    gap: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
