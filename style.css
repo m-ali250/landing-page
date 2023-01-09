@@ -2,10 +2,16 @@
     font-family: 'roboto', Helvetica, sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .header {
     display: flex;
     background-color: #1F2937; 
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
     justify-content: space-around;
 }
 
@@ -17,7 +23,37 @@ ul {
     gap: 18px;
 }
 
-a {
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
     color: white;
-    text-decoration: none;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    width: fit-content;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 15px;
 }
