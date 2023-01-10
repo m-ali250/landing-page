@@ -91,4 +91,60 @@ button {
     max-width: 225px;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 500px;
+}
+
+.quote-info {
+    font-weight: 800;
+    padding-left: 250px;
+}
+
+.sign-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.blue-portion {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px auto;
+    border-radius: 4px;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 100px ;
+}
+
+
+.main-blue {
+    font-weight: 800;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.blue-subtext {
+    font-size: 18px;
+
+}
+
+.blue-button {
+    height: 32px;
+    width: fit-content;
+}
 
