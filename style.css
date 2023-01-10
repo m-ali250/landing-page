@@ -29,7 +29,7 @@ ul {
     background-color: #1F2937;
     justify-content: space-around;
     color: white;
-    padding: 50px;
+    padding: 50px 50px 100px;
     align-items: center;
 }
 
@@ -39,11 +39,14 @@ ul {
     width: 410px;
     font-size: 18px;
     color: #e5e7eb;
-    
+}
+
+.hero-info {
+    padding: 15px 0px;
 }
 
 .hero-header {
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 800;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -56,5 +59,36 @@ button {
     color: white;
     border-radius: 8px;
     padding: 5px 15px;
+    font-size: medium;
 }
+
+.rand-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.rand-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 60px;
+}
+
+.rand-info img {
+    border-radius: 8px;
+}
+
+.div-subtopics {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info {
+    max-width: 225px;
+}
+
 
